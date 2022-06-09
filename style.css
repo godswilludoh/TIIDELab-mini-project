@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+}
+
+.heading{
+    margin: 10px 0;
+}
+
+/*SEARCH BOX SECTION */
+.search-section{
+    background: #342eb2;
+    padding: 10px;
+}
+
+#search{
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+}
+
+.user-list-section{
+    margin-top: 20px;
+    
+}
+
+li{
+    list-style: none;
+    border: 1px solid #000000;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    font-size: 18px;
+    text-transform:capitalize;
+    padding: 12px;
+}
+
+li:hover{
+background-color: #eeeeee;
+}
+
+/* Pill button for username */
+.username{
+    background-color: #332da0;
+    color: #ffffff;
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+
+/*MEDIA QUERY FOR LARGE SCREENS*/
+@media(min-width: 1000px){
+    body{
+        width: 50%;
+    }
+
+    li{
+        font-size: 14px;
+    }
+}
